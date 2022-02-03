@@ -6,6 +6,7 @@ import { mountRootParcel } from 'single-spa';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
+  button = true;
   title = 'Quick Wait Profile';
   componentMountRootParcel = mountRootParcel;
   async getInforParcel() {
